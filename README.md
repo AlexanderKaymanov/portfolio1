@@ -1,2 +1,7 @@
-# portfolio
-[Сайт портфолио можно посмотреть по ссылке ](https://alexanderkaymanov.github.io/portfolio1/index.html).
+# Портфолио
+
+**Назначение.**
+
+Сайт предназначен для демострации, некоторые функции могут не работать, такие как отправка заявок. Полная версия сайта дорабатывается и будет размещена на платном домене.
+
+* [Сайт портфолио можно посмотреть по ссылке https://alexanderkaymanov.github.io/portfolio1/index.html](https://alexanderkaymanov.github.io/portfolio1/index.html).

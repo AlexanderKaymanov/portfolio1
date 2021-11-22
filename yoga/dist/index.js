@@ -277,7 +277,7 @@ module.exports = tabs;
 
 // Таймер
 function timer() {
-  var deadline = '2021-09-10';
+  var deadline = '2021-12-29';
 
   function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date()),
@@ -1395,9 +1395,9 @@ var Promise$1 = function () {
   /**
     `finally` will be invoked regardless of the promise's fate just as native
     try/catch/finally behaves
-  
+
     Synchronous example:
-  
+
     ```js
     findAuthor() {
       if (Math.random() > 0.5) {
@@ -1405,7 +1405,7 @@ var Promise$1 = function () {
       }
       return new Author();
     }
-  
+
     try {
       return findAuthor(); // succeed or fail
     } catch(error) {
@@ -1415,9 +1415,9 @@ var Promise$1 = function () {
       // doesn't affect the return value
     }
     ```
-  
+
     Asynchronous example:
-  
+
     ```js
     findAuthor().catch(function(reason){
       return findOtherAuther();
@@ -1425,7 +1425,7 @@ var Promise$1 = function () {
       // author was either found, or not
     });
     ```
-  
+
     @method finally
     @param {Function} callback
     @return {Promise}
@@ -1564,7 +1564,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/ 	
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -1578,14 +1578,14 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
-/******/ 	
+/******/
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 	
+/******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
+/******/
 /************************************************************************/
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
@@ -1598,7 +1598,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 /******/ 			}
 /******/ 		})();
 /******/ 	})();
-/******/ 	
+/******/
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.

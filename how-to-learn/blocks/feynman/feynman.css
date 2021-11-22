@@ -1,0 +1,7 @@
+/* Секция метод Фейнмана */
+.feynman {
+  position: relative;
+  height: 790px;
+  background-color: #f2f2f2;
+  z-index: 0;
+}
